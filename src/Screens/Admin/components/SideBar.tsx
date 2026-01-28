@@ -21,7 +21,7 @@ export const SideBar = () => {
         <div className="flex w-full flex-col">
             <aside className="fixed w-90 gap-2.5 flex-col bg-phantom-night border-r-2 justify-start items-center border-graphite-shadow h-full max-h-screen hidden sm:flex">
                 <div className="w-full h-fit p-5.5 flex justify-start items-center border-b-2 border-graphite-shadow">
-                    <img src="/GeeshWebsite/AdminLogo.svg" alt="Geesh Logo" className='w-44' />
+                    <img src="/geesh-website/AdminLogo.svg" alt="Geesh Logo" className='w-44' />
                 </div>
 
                 <nav className="text-ghost-mist w-full flex px-2.5">
@@ -46,7 +46,7 @@ export const SideBar = () => {
                             </SheetTrigger>
                             <SheetContent className="bg-phantom-night">
                                 <SheetHeader className="w-full h-fit p-5.5 flex justify-start items-center border-b-2 border-graphite-shadow">
-                                    <img src="/GeeshWebsite/AdminLogo.svg" alt="Geesh Logo" className='w-44' />
+                                    <img src="/geesh-website/AdminLogo.svg" alt="Geesh Logo" className='w-44' />
                                 </SheetHeader>
                                 <nav className="text-ghost-mist w-full flex px-2.5">
                                     <ul className="flex gap-2.5 flex-col w-full">

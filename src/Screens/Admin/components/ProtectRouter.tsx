@@ -19,7 +19,7 @@ export default function ProtectRouter({ children }: { children: React.ReactEleme
         return <div className="text-White-80">Carregando...</div>; // Pode trocar por spinner bonitão
     }
     if (!user) {
-        return <Navigate to="/GeeshWebsite/AdminSignIn/" />;
+        return <Navigate to="/geesh-website/AdminSignIn/" />;
     }
 
     return children

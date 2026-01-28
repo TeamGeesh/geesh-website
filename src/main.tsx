@@ -11,15 +11,15 @@ import Accounts from './Screens/Admin/views/Accounts.tsx'
 
 const router = createBrowserRouter([
   {
-    path: '/GeeshWebsite/',
+    path: '/geesh-website/',
     element: <App />,
   },
   {
-    path: '/GeeshWebsite/AdminSignIn/',
+    path: '/geesh-website/AdminSignIn/',
     element: <AdminSignIn />
   },
   {
-    path: '/GeeshWebsite/Admin',
+    path: '/geesh-website/Admin',
     element: (
       <ProtectRouter>
         < Admin />

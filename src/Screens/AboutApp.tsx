@@ -54,7 +54,7 @@ export default function AboutApp() {
 
                 <div className="flex w-[25%] justify-center">
                     <img
-                        src="/GeeshWebsite/Energy.svg"
+                        src="/geesh-website/Energy.svg"
                         alt="Energia Renovável"
                         className="max-w-md w-full"
                     />

@@ -31,7 +31,7 @@ export default function SignInForm() {
                     title: "Login bem-sucedido",
                     desc: "Você será redirecionado para o painel administrativo.",
                     duration: 4000,
-                    onClose: () => { setToast(null); navigate("/GeeshWebsite/Admin/") },
+                    onClose: () => { setToast(null); navigate("/geesh-website/Admin/") },
                     type: 'sucess'
                 })
             }
@@ -48,7 +48,7 @@ export default function SignInForm() {
                     onClose: () => setToast(null),
                     type: 'error'
                 })
-                navigate("/GeeshWebsite/AdminSignIn/")
+                navigate("/geesh-website/AdminSignIn/")
                 return;
             }
             if (error.code === "auth/too-many-requests") {
@@ -59,7 +59,7 @@ export default function SignInForm() {
                     onClose: () => setToast(null),
                     type: 'error'
                 })
-                navigate("/GeeshWebsite/AdminSignIn/")
+                navigate("/geesh-website/AdminSignIn/")
                 return;
             }
             if (error.code === "auth/invalid-email") {
@@ -70,7 +70,7 @@ export default function SignInForm() {
                     onClose: () => setToast(null),
                     type: 'error'
                 })
-                navigate("/GeeshWebsite/AdminSignIn/")
+                navigate("/geesh-website/AdminSignIn/")
                 return;
             }
         }
@@ -79,7 +79,7 @@ export default function SignInForm() {
         <div className="flex flex-col items-center w-fit">
             <div className="bg-phantom-night rounded-lg border border-graphite-shadow shadow-2xl gap-4 flex flex-col w-80 h-fit justify-center items-center p-4">
                 <div className="flex flex-col gap-2.5 items-center justify-center  w-full h-fit ">
-                    <img src="/GeeshWebsite/GeeshName.svg" alt="Geesh Logo" className='w-24 sm:w-34 ' />
+                    <img src="/geesh-website/GeeshName.svg" alt="Geesh Logo" className='w-24 sm:w-34 ' />
                     <p className="text-ghost-mist uppercase text-xs">Gerenciamento de Energia</p>
                 </div>
                 <form className="flex flex-col w-full h-full gap-2.5  py-3.5" id="AdminSignInForm">

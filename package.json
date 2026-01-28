@@ -1,9 +1,9 @@
 {
   "name": "geesh-website",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.3",
   "type": "module",
-  "homepage": "https://erykolliver.github.io/GeeshWebsite",
+  "homepage": "https://teamgeesh.github.io/geesh-website/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
