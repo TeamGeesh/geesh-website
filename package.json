@@ -14,7 +14,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/TeamGeesh/geesh-website.git"
+    "deploy": "gh-pages -d dist --repo https://github.com/TeamGeesh/geesh-website.git"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
