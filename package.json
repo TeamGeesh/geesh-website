@@ -4,6 +4,10 @@
   "version": "1.0.3",
   "type": "module",
   "homepage": "https://teamgeesh.github.io/geesh-website/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TeamGeesh/geesh-website.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
